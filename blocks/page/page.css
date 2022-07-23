@@ -1,0 +1,7 @@
+.page{
+  background-color: #2A2C2F;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
