@@ -8,9 +8,13 @@
   grid-column: 2;
   color: #FFFFFF;
   margin: 0;
+  padding-bottom: 26px;
 }
 .place__paragraph:first-child{
   padding-bottom: 26px;
+}
+.place__paragraph:last-of-type{
+  padding-bottom: 0;
 }
 @media screen and (max-width: 768px) {
   .place__paragraph {
@@ -18,18 +22,19 @@
     line-height: 26.08px;
   }
 }
-  @media screen and (max-width: 760px) {
-    .place__paragraph {
-      grid-column: 1;
-      padding-left: 16px;
-      padding-right: 16px;
-    }
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    grid-column: 1;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 @media screen and (max-width: 320px) {
   .place__paragraph {
     margin: 0 auto;
     max-width: 90%;
-    padding-left: 16px;
-    padding-right: 16px;
+  }
+  .place__paragraph:first-of-type{
+    padding-top: 32px;
   }
 }

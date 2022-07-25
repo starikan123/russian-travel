@@ -1,6 +1,27 @@
 .cover__background{
-  max-width: 100%;
-  grid-column: 1/2;
-  grid-row: 1/3;
-  opacity: .7;
-}
+    grid-column: 1/2;
+    grid-row: 1/3;
+    opacity: .7;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    max-height: 740px;
+    width: 100%;
+  }
+  @media screen and (max-width: 1280px) {
+    .cover__background {
+      min-height: 57vw;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .cover__background {
+      min-height: 62vw;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .cover__background {
+      min-height: 200px;
+    }
+  } 

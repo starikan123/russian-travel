@@ -6,8 +6,13 @@
   letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
-  width: 60%;
   margin: 0;
+  max-width: 690px;
   padding-top: 40px;
   padding-bottom: 33px;
+}
+@media screen and (max-width: 768px) {
+  .intro__text{
+  max-width: 100%;
+}
 }

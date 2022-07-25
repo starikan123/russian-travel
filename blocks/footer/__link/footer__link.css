@@ -13,7 +13,7 @@
 .footer__link:hover {
   opacity: .5;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 767px) {
   .footer__link {
     padding-bottom: 32px;
     padding-right: 0;

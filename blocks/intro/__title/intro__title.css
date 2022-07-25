@@ -6,14 +6,14 @@
   letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
-  width: 60%;
+  max-width: 690px;
   margin: 0;   
 }
 @media screen and (max-width: 768px) {
   .intro__title {
     font-size: 7vw;
     line-height: 1.1;
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 320px) {

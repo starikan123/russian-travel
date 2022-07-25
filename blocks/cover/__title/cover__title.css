@@ -7,17 +7,24 @@
   letter-spacing: 0em;
   text-align: center;
   z-index: 1;
-  margin: 0 auto;
+  margin: 0;
   color: #FFFFFF;
   grid-column: 1;
   grid-row: 1;
   justify-self: center;
   align-self: end;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .cover__title {
     max-width: 85%;
     font-size: 35px;
     line-height: 35px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 11vw;
+    line-height: 1.1;
+    max-width: 85%;
   }
 }
