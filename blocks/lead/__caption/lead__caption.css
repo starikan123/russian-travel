@@ -1,5 +1,5 @@
-.lead__caption{
-  font-family: 'Inter', 'Arial', sans-serif;
+.lead__caption {
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 14px;
@@ -7,9 +7,9 @@
   text-align: left;
   margin: 0;
   padding-top: 8px;
-  max-width: 158px;
-  color: #FFFFFF;
-  text-transform: capitalize;
+  min-width: 158px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
   .lead__caption {

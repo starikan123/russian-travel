@@ -1,9 +1,11 @@
-.header{
+.header {
   display: flex;
-  max-width: 100%;
-  padding-top: 46px;
+  max-width: 1184px;
+  padding-top: 28px;
+  padding-right: 5px;
   justify-content: space-between;
   margin: 0 auto;
+  min-height: 52px;
 }
 @media screen and (max-width: 1280px) {
   .header {
@@ -11,17 +13,19 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  .header { 
+  .header {
     max-width: 90%;
+    padding-top: 34px;
+    padding-left: 3px;
   }
 }
 @media screen and (max-width: 768px) {
-  .header { 
+  .header {
     max-width: 94%;
   }
 }
 @media screen and (max-width: 320px) {
-  .header { 
+  .header {
     max-width: 91%;
   }
 }

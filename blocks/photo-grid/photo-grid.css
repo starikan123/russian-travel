@@ -1,11 +1,10 @@
-.photo-grid{
-    display: grid;
-    margin: 0 auto;
-    max-width: 1184px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    gap: 15px;
-    padding-top: 7.5%;
-    justify-content: center;
+.photo-grid {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1184px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 15px;
+  padding-top: 92px;
 }
 @media screen and (max-width: 1024px) {
   .photo-grid {
@@ -14,14 +13,16 @@
   }
 }
 @media screen and (max-width: 768px) {
-    .photo-grid {
-      max-width: 93%;
-      margin-top: 88px;
-    }
+  .photo-grid {
+    max-width: 93%;
+    margin: 88px auto 0;
   }
-  @media screen and (max-width: 320px) {
-    .photo-grid {
-        max-width: 90%;
-        margin-top: 64px;
-    }
+}
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    max-width: 90%;
+    margin-top: 64px;
+    gap: 12px;
+    padding: 0;
   }
+}
