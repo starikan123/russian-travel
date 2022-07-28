@@ -1,28 +1,26 @@
-.cover__overlay {
+.cover__background {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
   min-height: 740px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  z-index: 1;
 }
 @media screen and (max-width: 1280px) {
-  .cover__overlay {
+  .cover__background {
     min-height: 57vw;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .cover__overlay {
+  .cover__background {
     min-height: 62vw;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover__overlay {
+  .cover__background {
     min-height: 200px;
-    justify-content: flex-start;
   }
 }

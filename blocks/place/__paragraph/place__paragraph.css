@@ -17,16 +17,15 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
-    grid-column: 2;
-    padding-right: 24px;
   }
 }
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    margin: 0 auto;
-    max-width: 90%;
-    padding: 0 16px;
     grid-column: 1;
+    margin: 0 auto;
+    width: 288px;
+    padding-left: 0;
+    padding-right: 60px;
   }
   .place__paragraph:first-of-type {
     padding-top: 32px;

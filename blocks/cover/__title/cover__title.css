@@ -7,29 +7,19 @@
   letter-spacing: 0em;
   text-align: center;
   z-index: 1;
-  margin: 0 auto;
+  margin: 0;
   color: #ffffff;
-  padding-top: 243px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 @media screen and (max-width: 1024px) {
   .cover__title {
-    padding-top: 110px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover__title {
-    max-width: 560px;
-    padding: 14% 0 0;
+    padding-bottom: 12px;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    max-width: 288px;
-    padding: 10% 0 0;
+    max-width: 75%;
+    padding-bottom: 0;
   }
 }

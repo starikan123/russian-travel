@@ -8,27 +8,19 @@
   text-align: center;
   z-index: 1;
   color: #ffffff;
-  justify-self: center;
-  margin: 0 auto;
-  padding-top: 34px;
-  padding-bottom: 243px;
+  margin: 0;
+  padding-top: 32px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 760px) {
   .cover__subtitle {
-    padding: 32px 0 193px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    padding: 30px 0 115px;
+    max-width: 85%;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    max-width: 288px;
+    max-width: 65%;
     padding-top: 16px;
-    padding-bottom: 10%;
   }
 }

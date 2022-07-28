@@ -1,15 +1,16 @@
-.footer__copyright{
-  font-family: 'Inter', 'Arial', sans-serif;
+.footer__copyright {
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
 }
 @media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 14px;
-    padding-top: 16px;
+    padding-top: 46px;
+    padding-bottom: 10px;
   }
 }

@@ -10,10 +10,3 @@
   margin: 0;
   padding-bottom: 12px;
 }
-@media screen and (max-width: 320px) {
-  .place__url-heading {
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 12px;
-  }
-}
