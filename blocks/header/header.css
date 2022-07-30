@@ -25,5 +25,6 @@
   .header {
     max-width: 91%;
     min-height: 42px;
+    padding-top: 16px;
   }
 }
