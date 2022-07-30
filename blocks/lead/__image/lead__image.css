@@ -1,9 +1,9 @@
-.lead__image{
-    width: 100%;
-    padding-top: 56px;
+.lead__image {
+  width: 100%;
+  padding-top: 64px;
 }
 @media screen and (max-width: 320px) {
-    .lead__image{
+  .lead__image {
     padding-top: 40px;
-}
+  }
 }

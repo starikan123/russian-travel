@@ -4,7 +4,7 @@
   margin: 0 auto;
   position: relative;
   display: flex;
-  background-image: url(../../../images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
 }

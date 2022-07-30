@@ -19,13 +19,12 @@
     line-height: 26.08px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place__paragraph {
     grid-column: 1;
-    margin: 0 auto;
-    width: 288px;
-    padding-left: 0;
-    padding-right: 60px;
+    margin: 0;
+    min-width: 288px;
+    padding: 0 16px;
   }
   .place__paragraph:first-of-type {
     padding-top: 32px;
