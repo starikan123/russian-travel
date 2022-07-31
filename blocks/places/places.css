@@ -18,13 +18,12 @@
     padding-bottom: 90px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .places {
-    gap: 58px;
-    max-width: 320px;
+    gap: 50px;
+    max-width: 100%;
     padding-bottom: 66px;
     padding-top: 64px;
     margin: 0;
-    max-width: 320px;
   }
 }

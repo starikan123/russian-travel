@@ -22,9 +22,8 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__paragraph {
     grid-column: 1;
-    margin: 0;
-    min-width: 288px;
-    padding: 0 16px 24px;
+    max-width: 100%;
+    padding: 0 16px 25px;
   }
   .place__paragraph:first-of-type {
     padding-top: 32px;
